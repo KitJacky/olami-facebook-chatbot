@@ -1,0 +1,32 @@
+{
+  "name": "facebook-messenger-bot",
+  "version": "1.0.0",
+  "description": "OLAMI 整合 Facebook Messenger 的快速開始 Demo",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vernon99/messenger-quick-start.git"
+  },
+  "keywords": [
+    "messenger",
+    "bot",
+    "quickstart"
+  ],
+  "author": "OLAMI <olamiteam@via.com.tw>",
+  "license": "MIT",
+  "homepage": "https://tw.olami.ai/",
+  "dependencies": {
+    "request": ">=2.75.0",
+    "express": "*",
+    "body-parser": "*",
+    "bufferhelper": ">=0.2.1",
+    "iconv-lite": ">=0.4.13",
+    "md5": ">=2.2.1",
+    "urlencode": ">=1.1.0",
+    "delayed": ">=1.0.1",
+		"child_process": ">=1.0.2"
+  }
+}
